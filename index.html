@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search google</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Put the following javascript before the closing </head> tag
+    and replace 123:456 with your own Programmable Search Engine ID. -->
+    <script async src="https://cse.google.com/cse.js?cx=123:456"></script>
+  </head>
+  <body>
+    <h1>Search google</h1>
+    <form action="" id="search">
+      <label for="search">Search</label>
+      <input type="text" name="search" />
+      <button type="submit">Search</button>
+      <!-- Place this tag where you want both of the search box and the search results to render -->
+      <div class="gcse-search"></div>
+      <br />
+      <output id="result"></output>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
